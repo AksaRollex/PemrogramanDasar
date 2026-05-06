@@ -22,8 +22,8 @@ public class UTS {
         double totalSebelumDiskon = 0;
 
         do {
-            System.out.print("-------------------------------------");
-            System.out.println("\n--- Selamat Datang di Aksa Store ---");
+            System.out.println("-------------------------------------");
+            // System.out.println("\n--- Selamat Datang di Aksa Store ---");
             System.out.println("--- Silahkan Untuk Memilih Menu ! ---");
             System.out.println("-------------------------------------");
             System.out.println("(1). Input Nama Barang & Harga"); // berapa barang (minimal 5 barang, jika dibawah 5
@@ -106,9 +106,9 @@ public class UTS {
                     break;
 
                 case 4:
+                    System.out.println(textDiskon);
                     System.out.printf("Total Bayar Sebelum Diskon : Rp %.0f\n", totalSebelumDiskon);
                     System.out.printf("Total Bayar Setelah Diskon: Rp %.0f\n", total);
-                    System.out.println(textDiskon);
                     break;
 
                 case 5:
