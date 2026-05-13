@@ -28,10 +28,14 @@ public class ArrayMax {
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
+                // compare apakah nilai array kedua[i/1] lebih besar dari nilai max (nilai array
+                // pertama[0])
+                // jika arr[i] lebih besar dari max maka nilai max akan diubah menjadi arr[i]
                 max = arr[i];
             }
         }
-        return max;
+        return max; // even arr[i] tidak lebih besar dari max, maka nilai array max tetap akan
+                    // direturn sbg nilai terbesar
     }
 
 }
