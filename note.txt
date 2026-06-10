@@ -1,0 +1,2 @@
+ // 1. Deklarasi variabel "global" (static)
+    public static String namaAplikasi = "Sistem Java";
