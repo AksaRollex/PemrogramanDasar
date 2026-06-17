@@ -23,8 +23,8 @@ public class LatihanSegitiga {
             System.out.println();
         }
 
-        for (int i=n; i >=1; i--) {
-            (for int j=1; j<=n-1)
-        }         
+        // for (int i=n; i >=1; i--) {
+        //     (for int j=1; j<=n-1)
+        // }         
     }
 }
