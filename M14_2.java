@@ -26,6 +26,7 @@ public class M14_2 {
             int total = 0;
             for (int hari : telat) {
                 total += hari * 1000;
+                // System.out.println("Denda per buku : " + "Rp. " + hari + total);
             }
             return total;
         }

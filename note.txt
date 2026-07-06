@@ -1,2 +1,11 @@
- // 1. Deklarasi variabel "global" (static)
-    public static String namaAplikasi = "Sistem Java";
+// procedure
+public void cetakPesan(String nama) {
+    System.out.println("Halo, " + nama);
+    // Tidak ada baris return dan tipe kembalian adalah void
+}
+
+// function 
+public int tambahAngka(int a, int b) {
+    int hasil = a + b;
+    return hasil; // Mengembalikan nilai bertipe int
+}
